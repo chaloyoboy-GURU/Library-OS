@@ -1,0 +1,31 @@
+#root {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+a {
+  color: #d4af37;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #f0d060;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  transition: all 0.2s;
+}
+
+input:focus {
+  border-color: rgba(212,175,55,0.6) !important;
+  box-shadow: 0 0 0 3px rgba(212,175,55,0.1);
+  outline: none;
+}
+
+select:focus {
+  border-color: rgba(212,175,55,0.6) !important;
+  outline: none;
+}

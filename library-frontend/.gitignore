@@ -1,0 +1,14 @@
+# Java / Spring Boot
+target/
+*.log
+
+# Node / React
+node_modules/
+build/
+
+# IDE
+.idea/
+.vscode/
+
+# Env
+.env
